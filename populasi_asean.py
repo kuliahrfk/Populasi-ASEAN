@@ -101,5 +101,6 @@ app.layout = html.Div([
 # --------------------------------------
 # Menjalankan Aplikasi
 # --------------------------------------
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# Bagian ini dikomentari karena akan di-deploy (misalnya di PythonAnywhere)
+#if __name__ == '__main__':
+#    app.run_server(debug=True)
